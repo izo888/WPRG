@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background: #f4f4f4;
+    color: #222;
+}
+
+body.dark {
+    background: #181818;
+    color: #f1f1f1;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+body.dark a {
+    color: #7ab7ff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+}
+
+body.dark table {
+    background: #242424;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+body.dark th,
+body.dark td {
+    border-color: #555;
+}
+
+input,
+textarea,
+select,
+button {
+    padding: 8px;
+    margin-top: 4px;
+}
+
+button,
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.message {
+    padding: 10px;
+    background: #d4edda;
+    color: #155724;
+    margin: 15px 0;
+    border: 1px solid #c3e6cb;
+}
+
+body.dark .message {
+    background: #1f4f2f;
+    color: #d4edda;
+    border-color: #2f7a45;
+}
+
+.error {
+    color: red;
+}
+form {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+body.dark form {
+    background: #242424;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+.btn {
+    margin: 4px 4px 4px 0;
+    border-radius: 4px;
+}
+
+.error {
+    color: #d60000;
+    margin-top: 5px;
+}
+
+body.dark .error {
+    color: #ff7777;
+}
